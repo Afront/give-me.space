@@ -1,11 +1,12 @@
 %{
-  site_name: "GiveMeSpace",
-  site_description: "TODO: Add site description",
+  site_name: "Give Me Space",
+  site_description: "A platform for creators",
   date_format: "{WDfull}, {D} {Mshort} {YYYY}",
   base_url: "/",
-  author: "John Doe",
-  author_email: "john.doe@example.com",
+  author: "Afront",
+  author_email: "this-is@afront.me",
   plugins: [
     {Serum.Plugins.LiveReloader, only: :dev}
-  ]
+  ],
+  theme: Serum.Themes.Essence
 }
