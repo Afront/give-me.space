@@ -16,10 +16,18 @@ title: Create a donation page
 </form>
 
 <script type="text/javascript">
-  var url = window.location.search//.split('&');
+  var url = window.location.search;
+  var token;
   if(url.charAt(0) === '?'){
     url = url.substr(1);
   }
+  url = url.split('&');
 
-  document.write(url);
+  for (var i = 0; i < url.length; i++) {
+    if (url[i].indexOf("code=") !== -1) {
+      token = url[i].split('=')[1];
+      document.writeln(token);
+    }
+  }
+
 </script>
