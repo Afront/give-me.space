@@ -3,6 +3,10 @@ title: Welcome
 ---
 <link rel="stylesheet" href="<%= asset "css/bootstrap.min.css" %>">
 <div>
+	<i>WIP</i><br />
+	<b>Disclaimer: This site is still under construction</b><br />
+	<!--Hide client secret and id to a function later...
+		The client id and secret will be changed for security purposes-->
 	<button type="button" class="btn btn-default active" onclick="location.href='https://github.com/login/oauth/authorize?client_id=5f91894f7bae1a9287b7&login';">
 		Log in using Github
 	</button>
