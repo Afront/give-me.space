@@ -7,6 +7,5 @@
   author_email: "this-is@afront.me",
   plugins: [
     {Serum.Plugins.LiveReloader, only: :dev}
-  ],
-  theme: Serum.Themes.Essence
+  ]
 }

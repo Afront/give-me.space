@@ -19,8 +19,7 @@ defmodule GiveMeSpace.MixFile do
 
   defp deps do
     [
-      {:serum, "~> 1.4"},
-      {:serum_theme_essence, "~> 1.0"}
+      {:serum, "~> 1.4"}
     ]
   end
 end
