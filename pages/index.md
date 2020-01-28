@@ -7,12 +7,12 @@ title: Welcome (WIP)
 
 ### Give Me Space is a site to easily find and make a donation landing page
 
-<button type="button" class="btn btn-default active" onclick="location.href='#';">
+<button type="button" class="button" onclick="location.href='#';">
 	Find someone to donate to
 </button>
 
 <!--Hide client secret and id to a function later...
 	The client id and secret will be changed for security purposes-->
-<button type="button" class="btn btn-default active" onclick="window.open('https://github.com/login/oauth/authorize?client_id=5f91894f7bae1a9287b7&login', '_blank', 'toolbar=0,location=0,menubar=0,width=500'); return false;">
+<button type="button" class="button" onclick="window.open('https://github.com/login/oauth/authorize?client_id=5f91894f7bae1a9287b7&login', '_blank', 'toolbar=0,location=0,menubar=0,width=500'); return false;">
 	Set up a landing page
 </button>
