@@ -2,17 +2,6 @@
 <html>
 	<head>
 		<%= include "head" %>
-		<meta charset="utf-8">
-		<title><%= @page.title %> - <%= @site.name %></title>
-	</head>
-	<body>
-		<h1><a href="<%= base() %>"><%= @site.name %></a></h1>
-		<p><%= @site.description %></p>
-		<%= include "nav" %>
-		<%= @contents %>
-	</body>
-	<head>
-		<%= include "head" %>
 	</head>
 	<header>
 		<%= include "header" %>
