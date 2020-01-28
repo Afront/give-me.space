@@ -11,4 +11,16 @@
 		<%= include "nav" %>
 		<%= @contents %>
 	</body>
+	<head>
+		<%= include "head" %>
+	</head>
+	<header>
+		<%= include "header" %>
+	</header>
+	<body>
+		<%= @contents %>
+	</body>
+	<footer>
+		<%= include "footer" %>
+	</footer>
 </html>
