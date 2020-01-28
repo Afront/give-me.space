@@ -1,5 +1,5 @@
-<!--<ul>
-  <li><a href="<%= page "index" %>">Home</a></li>
-<li><a href="<%= base "posts" %>">Posts</a></li>
-</ul>!
--->
+<link rel="stylesheet" href='<%= asset "css/bootstrap.min.css" %>'>
+<ul>
+  <li><a href='<%= page "index" %>'>Home</a></li>
+<li><a href='<%= base "users" %>'>users</a></li>
+</ul>

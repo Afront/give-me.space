@@ -1,4 +1,4 @@
-const { config, oauth } = require('./utils/auth')
+const { config, oauth } = require('./utils/auth.js')
 
 /* Do initial auth redirect */
 exports.handler = async (event, context) => {

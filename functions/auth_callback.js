@@ -1,6 +1,6 @@
 const querystring = require('querystring')
-const { config, oauth } = require('./utils/auth')
-const { getUser } = require('./utils/netlify_api')
+const { config, oauth } = require('./utils/auth.js')
+const { getUser } = require('./utils/netlify_api.js')
 
 /* Function to handle netlify auth callback */
 exports.handler = async (event, context) => {
